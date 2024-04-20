@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+h1 {
+  color: beige;
+  text-align: center;
+}
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+
+  /* border: 2px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 2%;
+}
+.container div {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 5%;
+  cursor: crosshair;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.results {
+  display: flex;
+  width: 40%;
+  height: fit-content;
+  justify-content: center;
+  padding: 2%;
+}
+.results span {
+  color: white;
+  font-size: larger;
+}
+.game {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.emoji {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.game {
+  width: 80%;
+  height: 20%;
+  display: flex;
+}
+.game span {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  align-items: center;
+  margin: 0 2%;
+  color: white;
+  font-size: 26px;
+}

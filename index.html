@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css?new" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="cont">
+      <h1>Rock Paper Scissors</h1>
+      <main class="container">
+        <div>👊</div>
+        <div>🤚</div>
+        <div>✌️</div>
+      </main>
+      <div class="game" style="display: none">
+        <h2 id="results"></h2>
+        <span>You</span>
+        <div class="emoji" id="human">✌️</div>
+        <span>Computer</span>
+        <div class="emoji" id="computer">🤚</div>
+      </div>
+      <div class="results">
+        <span>Wins:</span> <span id="wins"> 0, </span> <span>Losses:</span>
+        <span id="losses"> 0, </span><span> Ties:</span>
+        <span id="draw">0 </span>
+      </div>
+      <button id="rst-btn" class="btn">Reset Score</button>
+    </div>
+  </body>
+</html>
